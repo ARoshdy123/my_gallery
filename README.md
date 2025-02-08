@@ -12,10 +12,10 @@
  
  
 ##  Used Permissions 
-  **iOS**
+**iOS**
 - <key>NSPhotoLibraryUsageDescription</key>
 - <key>NSCameraUsageDescription</key>
 
-  **Android**
+**Android**
 
 - Camera & Gallery (Handled by `image_picker package`)
