@@ -46,7 +46,7 @@ class _GalleryScreenState extends State<GalleryScreen> {
               ),
               itemCount: selectedImages.length,
               itemBuilder: (context, index) => ImageList(
-                imagePath: selectedImages[index].path,
+                imagePath: selectedImages[index].path,  // to view the selected image
 
               ),
             ),
@@ -56,10 +56,12 @@ class _GalleryScreenState extends State<GalleryScreen> {
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
+                // pick image from gallery button
                 ElevatedButton(
                   onPressed: () => pickImages(ImageSource.gallery),
                   child: const Text('Pick Images'),
                 ),
+                // add image from camera button
                 ElevatedButton(
                   onPressed: () => pickImages(ImageSource.camera),
                   child: const Text('Take Photo'),

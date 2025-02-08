@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'dart:io';
-
+// widget to handel image
 class ImageList extends StatelessWidget {
   final String imagePath;
 
