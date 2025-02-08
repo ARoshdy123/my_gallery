@@ -1,16 +1,21 @@
 # my_gallery
 
-A new Flutter project.
+## 📌 Overview
+ Flutter Task that lets users **pick  images** from the device gallery or **capture new photos** using the camera. Selected images are displayed in the app using `image_picker package`.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## Features
+ **Pick multiple images from the gallery**
+ **Take new photos using the camera**  
+ **Display images in the application**  
+ 
 
-A few resources to get you started if this is your first Flutter project:
+##  Used Permissions 
+  **iOS**
+- <key>NSPhotoLibraryUsageDescription</key>
+- <key>NSCameraUsageDescription</key>
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+  **Android**
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Camera & Gallery (Handled by `image_picker package`)
