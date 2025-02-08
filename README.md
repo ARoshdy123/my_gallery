@@ -1,7 +1,7 @@
 # my_gallery
 
 ## 📌 Overview
- Flutter Task that lets users **pick  images** from the device gallery or **capture new photos** using the camera. Selected images are displayed in the app using `image_picker package`.
+ Flutter Task that lets users **pick images** from the device gallery (Main Task) or **capture new photos** using the camera.(Extra from my side) Selected images are displayed in the app using `image_picker package`.
 
 ---
 
