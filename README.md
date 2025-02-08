@@ -10,7 +10,7 @@
  **Take new photos using the camera**  
  **Display images in the application**  
  
-
+ 
 ##  Used Permissions 
   **iOS**
 - <key>NSPhotoLibraryUsageDescription</key>
