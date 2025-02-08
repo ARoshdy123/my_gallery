@@ -16,7 +16,7 @@ class _GalleryScreenState extends State<GalleryScreen> {
 
   Future<void> pickImages(ImageSource source) async {
     if (source == ImageSource.gallery) {
-      // Pick multiple images from the gallery
+      // Pick images from the gallery
       final List<XFile> images = await picker.pickMultiImage();
       if (images.isNotEmpty) {
         setState(() => selectedImages.addAll(images));
